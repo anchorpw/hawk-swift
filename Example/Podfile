@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'hawk-swift_Example' do
+  pod 'hawk-swift', :path => '../'
+
+  target 'hawk-swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
