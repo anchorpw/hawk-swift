@@ -1,0 +1,28 @@
+PODS:
+  - CryptoSwift (0.9.0)
+  - HawkSwift (0.1.0):
+    - CryptoSwift (~> 0.9.0)
+  - Keys (1.0.1)
+
+DEPENDENCIES:
+  - HawkSwift (from `../`)
+  - Keys (from `Pods/CocoaPodsKeys`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  HawkSwift:
+    :path: "../"
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  HawkSwift: 3dac081bb8cc3ee3e1e3b2cb3c71b571cfc43c55
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+
+PODFILE CHECKSUM: b27ede80a70c3103c21955bd657033dc1247e884
+
+COCOAPODS: 1.5.3

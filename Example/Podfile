@@ -1,9 +1,15 @@
 use_frameworks!
 
-target 'hawk-swift_Example' do
-  pod 'hawk-swift', :path => '../'
+plugin 'cocoapods-keys', {
+  :project => "hawk-swift",
+  :keys => [
+    "HawkKey"
+  ]}
 
-  target 'hawk-swift_Tests' do
+target 'HawkSwift_Example' do
+  pod 'HawkSwift', :path => '../'
+
+  target 'HawkSwift_Tests' do
     inherit! :search_paths
 
     

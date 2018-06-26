@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		100C1861F17B031E5F59525B /* Pods_HawkSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14A2DE1CEA562D75F9C89A7 /* Pods_HawkSwift_Example.framework */; };
+		2C4340F920DD4D3D0014D73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4340F120DD4D3D0014D73A /* ViewController.swift */; };
+		2C4340FA20DD4D3D0014D73A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4340F220DD4D3D0014D73A /* LaunchScreen.xib */; };
+		2C4340FB20DD4D3D0014D73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4340F420DD4D3D0014D73A /* Main.storyboard */; };
+		2C4340FC20DD4D3D0014D73A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4340F620DD4D3D0014D73A /* Images.xcassets */; };
+		2C4340FD20DD4D3D0014D73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4340F720DD4D3D0014D73A /* AppDelegate.swift */; };
+		2C4340FE20DD4D3D0014D73A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4340F820DD4D3D0014D73A /* Info.plist */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9FF1AC9AC23018FC39BC5CBC /* Pods_hawk_swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38EC66D2D6190EC67D129CC /* Pods_hawk_swift_Example.framework */; };
 		ADA205486C3853C60973F6AB /* Pods_hawk_swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0666E2E197B0492818CB7E4 /* Pods_hawk_swift_Tests.framework */; };
+		B2D0C5DF5D38C99ABB876CDE /* Pods_HawkSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B014B23B9F4EC979966869 /* Pods_HawkSwift_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,23 +31,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FE811A49DA172468E4C6AB /* Pods-HawkSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HawkSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HawkSwift_Example/Pods-HawkSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1E42DDA404CF9F9FA6F17409 /* Pods-HawkSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HawkSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HawkSwift_Tests/Pods-HawkSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		269640311E5935A58F8EE510 /* Pods-hawk-swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hawk-swift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hawk-swift_Example/Pods-hawk-swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		41DF40C195E2B02245B31C82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C4340F120DD4D3D0014D73A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4340F320DD4D3D0014D73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C4340F520DD4D3D0014D73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4340F620DD4D3D0014D73A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C4340F720DD4D3D0014D73A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C4340F820DD4D3D0014D73A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DF40C195E2B02245B31C82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		425203959BDFB9FDC4702629 /* Pods-hawk-swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hawk-swift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-hawk-swift_Example/Pods-hawk-swift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5DABF6D674B2A1710BDAA9C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* hawk-swift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hawk-swift_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* hawk-swift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hawk-swift_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DABF6D674B2A1710BDAA9C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* HawkSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawkSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* HawkSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawkSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		608826AC140B05F25826FBB3 /* hawk-swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "hawk-swift.podspec"; path = "../hawk-swift.podspec"; sourceTree = "<group>"; };
+		608826AC140B05F25826FBB3 /* hawk-swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "hawk-swift.podspec"; path = "../hawk-swift.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		653D7BF909EADE5427AE41E7 /* Pods-hawk-swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hawk-swift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hawk-swift_Tests/Pods-hawk-swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6B442F99E700460B38837010 /* Pods-hawk-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hawk-swift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hawk-swift_Tests/Pods-hawk-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8677749C5FA236BA63A4B647 /* Pods-HawkSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HawkSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HawkSwift_Tests/Pods-HawkSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B14A2DE1CEA562D75F9C89A7 /* Pods_HawkSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HawkSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD53273A240D51C0D7F4080 /* Pods-HawkSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HawkSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HawkSwift_Example/Pods-HawkSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B014B23B9F4EC979966869 /* Pods_HawkSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HawkSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38EC66D2D6190EC67D129CC /* Pods_hawk_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hawk_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0666E2E197B0492818CB7E4 /* Pods_hawk_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hawk_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -55,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF1AC9AC23018FC39BC5CBC /* Pods_hawk_swift_Example.framework in Frameworks */,
+				100C1861F17B031E5F59525B /* Pods_HawkSwift_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,17 +73,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA205486C3853C60973F6AB /* Pods_hawk_swift_Tests.framework in Frameworks */,
+				B2D0C5DF5D38C99ABB876CDE /* Pods_HawkSwift_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4340F020DD4D3D0014D73A /* HawkSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2C4340F120DD4D3D0014D73A /* ViewController.swift */,
+				2C4340F220DD4D3D0014D73A /* LaunchScreen.xib */,
+				2C4340F420DD4D3D0014D73A /* Main.storyboard */,
+				2C4340F620DD4D3D0014D73A /* Images.xcassets */,
+				2C4340F720DD4D3D0014D73A /* AppDelegate.swift */,
+				2C4340F820DD4D3D0014D73A /* Info.plist */,
+			);
+			path = HawkSwift;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for hawk-swift */,
+				2C4340F020DD4D3D0014D73A /* HawkSwift */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				FB98D8D98BC0B88909D5452B /* Pods */,
@@ -84,32 +108,10 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* hawk-swift_Example.app */,
-				607FACE51AFB9204008FA782 /* hawk-swift_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* HawkSwift_Example.app */,
+				607FACE51AFB9204008FA782 /* HawkSwift_Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for hawk-swift */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for hawk-swift";
-			path = "hawk-swift";
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -144,6 +146,8 @@
 			children = (
 				E38EC66D2D6190EC67D129CC /* Pods_hawk_swift_Example.framework */,
 				F0666E2E197B0492818CB7E4 /* Pods_hawk_swift_Tests.framework */,
+				B14A2DE1CEA562D75F9C89A7 /* Pods_HawkSwift_Example.framework */,
+				D0B014B23B9F4EC979966869 /* Pods_HawkSwift_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +159,10 @@
 				425203959BDFB9FDC4702629 /* Pods-hawk-swift_Example.release.xcconfig */,
 				6B442F99E700460B38837010 /* Pods-hawk-swift_Tests.debug.xcconfig */,
 				653D7BF909EADE5427AE41E7 /* Pods-hawk-swift_Tests.release.xcconfig */,
+				CCD53273A240D51C0D7F4080 /* Pods-HawkSwift_Example.debug.xcconfig */,
+				07FE811A49DA172468E4C6AB /* Pods-HawkSwift_Example.release.xcconfig */,
+				1E42DDA404CF9F9FA6F17409 /* Pods-HawkSwift_Tests.debug.xcconfig */,
+				8677749C5FA236BA63A4B647 /* Pods-HawkSwift_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* hawk-swift_Example */ = {
+		607FACCF1AFB9204008FA782 /* HawkSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "hawk-swift_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HawkSwift_Example" */;
 			buildPhases = (
 				34F1DCE1EC7FBF3A6C07ED88 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = "hawk-swift_Example";
+			name = HawkSwift_Example;
 			productName = "hawk-swift";
-			productReference = 607FACD01AFB9204008FA782 /* hawk-swift_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* HawkSwift_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* hawk-swift_Tests */ = {
+		607FACE41AFB9204008FA782 /* HawkSwift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "hawk-swift_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HawkSwift_Tests" */;
 			buildPhases = (
 				25CDAE0FD872F8436CF28F4E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -195,9 +203,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = "hawk-swift_Tests";
+			name = HawkSwift_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* hawk-swift_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* HawkSwift_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "hawk-swift" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HawkSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* hawk-swift_Example */,
-				607FACE41AFB9204008FA782 /* hawk-swift_Tests */,
+				607FACCF1AFB9204008FA782 /* HawkSwift_Example */,
+				607FACE41AFB9204008FA782 /* HawkSwift_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,9 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				2C4340FA20DD4D3D0014D73A /* LaunchScreen.xib in Resources */,
+				2C4340FB20DD4D3D0014D73A /* Main.storyboard in Resources */,
+				2C4340FC20DD4D3D0014D73A /* Images.xcassets in Resources */,
+				2C4340FE20DD4D3D0014D73A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +281,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-hawk-swift_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HawkSwift_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -290,7 +299,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-hawk-swift_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HawkSwift_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -303,16 +312,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-hawk-swift_Example/Pods-hawk-swift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/hawk-swift/hawk_swift.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-HawkSwift_Example/Pods-HawkSwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/HawkSwift/HawkSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hawk_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HawkSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hawk-swift_Example/Pods-hawk-swift_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HawkSwift_Example/Pods-HawkSwift_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -322,8 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2C4340F920DD4D3D0014D73A /* ViewController.swift in Sources */,
+				2C4340FD20DD4D3D0014D73A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,26 +353,26 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* hawk-swift_Example */;
+			target = 607FACCF1AFB9204008FA782 /* HawkSwift_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		2C4340F220DD4D3D0014D73A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				2C4340F320DD4D3D0014D73A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2C4340F420DD4D3D0014D73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4340F520DD4D3D0014D73A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -466,10 +479,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269640311E5935A58F8EE510 /* Pods-hawk-swift_Example.debug.xcconfig */;
+			baseConfigurationReference = CCD53273A240D51C0D7F4080 /* Pods-HawkSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "hawk-swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HawkSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -481,10 +494,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 425203959BDFB9FDC4702629 /* Pods-hawk-swift_Example.release.xcconfig */;
+			baseConfigurationReference = 07FE811A49DA172468E4C6AB /* Pods-HawkSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "hawk-swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HawkSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -496,7 +509,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B442F99E700460B38837010 /* Pods-hawk-swift_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1E42DDA404CF9F9FA6F17409 /* Pods-HawkSwift_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -517,7 +530,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653D7BF909EADE5427AE41E7 /* Pods-hawk-swift_Tests.release.xcconfig */;
+			baseConfigurationReference = 8677749C5FA236BA63A4B647 /* Pods-HawkSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -535,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "hawk-swift" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HawkSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -544,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "hawk-swift_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HawkSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -553,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "hawk-swift_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HawkSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
